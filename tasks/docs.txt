@@ -1,0 +1,8 @@
+--link para vizulizar tal cual el api
+http://localhost:8000/tasks/docs/
+
+
+
+--link para visulizar django REST framework
+    ahi mismo puedo consultar el json y crud
+http://localhost:8000/tasks/api/v1/tasks/
