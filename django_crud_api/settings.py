@@ -89,7 +89,7 @@ WSGI_APPLICATION = "django_crud_api.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "railway",
+        "NAME": "railway",
         "USER": "postgres",
         "PASSWORD": "a26-Gfga2aG-fE5644fbcf12AAc21FE5",
         "HOST": "monorail.proxy.rlwy.net",
