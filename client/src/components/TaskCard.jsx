@@ -12,7 +12,7 @@ export function TaskCard({ task }) {
           navigate(`/tasks/${task.id}`);
         }}
       >
-        <h1 className="font-bold uppercase text-sky-950">{task.title}</h1>
+        <h1 className="font-bold uppercase text-cyan-500">{task.title}</h1>
         <h4>{task.description}</h4>
       </div>
     </>
