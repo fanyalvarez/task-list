@@ -1,9 +1,13 @@
 body {
   color: rgba(255, 255, 255, 0.87);
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #242424;
 =======
   background: rgb(41, 83, 145);
   background: linear-gradient(90deg, rgba(41, 83, 145, 1) 0%, rgba(66, 118, 124, 1) 38%, rgba(57, 114, 157, 1) 100%);
 >>>>>>> 6be62b3e15ec525ca912e61b8070810ec5f3a4f8
+=======
+  background-color: #242424;
+>>>>>>> parent of 93714b8 (add styles)
 }

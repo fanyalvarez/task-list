@@ -5,6 +5,9 @@ export function TaskCard({ task }) {
 
   return (
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 93714b8 (add styles)
     <div
       key={task.id}
       style={{ backgroundColor: "purple" }}
@@ -16,6 +19,7 @@ export function TaskCard({ task }) {
       <h4>{task.description}</h4>
       <hr />
     </div>
+<<<<<<< HEAD
 =======
     <>
       <div
@@ -30,5 +34,7 @@ export function TaskCard({ task }) {
       </div>
     </>
 >>>>>>> 6be62b3e15ec525ca912e61b8070810ec5f3a4f8
+=======
+>>>>>>> parent of 93714b8 (add styles)
   );
 }
