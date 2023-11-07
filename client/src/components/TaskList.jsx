@@ -12,18 +12,16 @@ export function TaskList() {
 
       //obtengo all informacion de tareas
       setTasks(resp.data);
-      // console.log(resp.data);
+      console.log(resp.data);
     }
     loadTasks();
   }, []);
 
   return (
     <>
-      <div className="grid grid-cols-3 gap-3 mx-20 mt-10">
-        {tasks.map((task) => (
-          <TaskCard task={task} key={task.id}></TaskCard>
-        ))}
-      </div>
+      {tasks.map((task) => (
+        <TaskCard task={task} key={task.id}></TaskCard>
+      ))}
     </>
   );
 }
